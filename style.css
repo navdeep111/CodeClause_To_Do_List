@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background: linear-gradient(265deg, #673ab7ab, #4caf508c);
+}
+
+#data{
+    background: palegreen;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px;
+}
+
+.addTask{
+    background: aquamarine;
+    box-shadow: 4px 4px 8px;
+    border-radius: 5px;
+    margin-bottom: 50px !important;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .addTask{
+       width: 25rem !important;
+        overflow-x: hidden !important;
+    } 
+    .viewTask {
+        overflow-x: auto !important;
+        width: 30rem;
+    }
+    #data{
+        padding: 20px !important;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 508px) {
+    .addTask{
+       width: 22rem !important;
+    } 
+    .viewTask {
+        width: 26rem;
+        font-size: 14px;
+        overflow-x: auto !important;
+        padding-left: 0px;
+    }
+    #data{
+        padding: 12px 20px !important;
+    }
+  }
+
+
+  @media only screen and (max-width: 425px) {
+    .addTask{
+       width: 20rem !important;
+    } 
+    .viewTask {
+        width: 22rem;
+        font-size: 14px;
+        padding-left: 0px;
+        overflow-x: auto !important;
+    }
+    #data{
+        padding: 12px 20px !important;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .addTask{
+        font-size: 16x;
+        width: 17rem !important;
+    } 
+    .viewTask {
+        width: 19rem;
+        font-size: 12px;
+        padding-left: 0px;
+        overflow-x: auto !important;
+    }
+    #data{
+        padding: 12px 20px !important;
+    }
+    h3{
+        padding-top: 12px;
+        font-size: 20px;
+    }
+    .clrall{
+        display: inline-block;
+    font-weight: 700;
+    width: 74px;
+    line-height: 1.5;
+    align-self: center;
+    height: 35px;
+    font-size: 12px;
+    padding: 0px 0px !important;
+    }
+  }
+
+  @media only screen and (max-width: 320px) {
+    .addTask{
+        font-size: 16x;
+        width: 14rem !important;
+    } 
+    .viewTask {
+        width: 17rem;
+        overflow-x: auto !important;
+        font-size: 10px;
+        padding-left: 0px;
+    }
+    #data{
+        padding: 12px 20px !important;
+    }
+    h3{
+        padding-top: 12px;
+        font-size: 20px;
+    }
+    .clrall{
+        display: inline-block;
+    font-weight: 700;
+    width: 74px;
+    line-height: 1.5;
+    align-self: center;
+    height: 35px;
+    font-size: 12px;
+    padding: 0px 0px !important;
+    }
+  }
